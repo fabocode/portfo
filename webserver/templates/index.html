@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- what appears in the tab -->
+  <title>MY WEBSITE</title>
+  <!-- In order to send the CSS style, we need to include it here -->
+  <link rel='stylesheet' type="text/css"  href="static/style.css">
+  <link rel='shortcut icon' href="{{ url_for('static', filename='global_warming.ico') }}">
+</head>
+<body>
+  <!-- What gets displayed in the website -->
+  {{ name }}  
+  {{ post_id }}
+  <script src="static/script.js"></script>  <!-- In order to send the JavaScript, we need to include it here -->
+</body>
+</html>
+
